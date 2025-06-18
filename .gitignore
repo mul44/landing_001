@@ -1,0 +1,15 @@
+build
+nodu_modules
+npm-debug.log
+Thumbs.db
+Desktop.ini
+$RECYCLER.BIN/
+
+*.cab
+*.msi
+*.msm
+*.msp
+
+*.lnk
+
+*lock
