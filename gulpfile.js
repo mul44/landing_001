@@ -2,6 +2,8 @@ const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const pug = require('gulp-pug')
 
+
+
 /* -----Static server----- */
 gulp.task('server', function() {
     browserSync.init({
@@ -13,6 +15,8 @@ gulp.task('server', function() {
 
     gulp.watch('build/**/*').on('change', browserSync.reload);
 });
+
+
 
 
 /* -----Pug compile----- */
